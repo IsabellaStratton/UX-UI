@@ -1,0 +1,274 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+    background-color: 0;
+	font-family:Tw Cen MT;
+    padding:0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: 0;
+}
+
+ li {
+    float: left;
+}
+
+ li a {
+    display: block;
+    padding-top: 50px;
+	margin: 30px;
+	color: black;
+}
+
+.li a:link {
+	color: black;  text-decoration:none
+	}
+.li a:visited {
+	color: black; text-decoration:none
+	}
+.li a:hover   {
+	color:#FF6633;  text-decoration:underline
+	}
+.li a:active  {
+	color: black; text-decoration:underline
+	}
+
+.homep {
+  display: flex;
+  align-items: center;
+  background-image: url("img/ishome.jpg");
+  background-size: cover;
+  height: 700px;
+}
+
+a:link {
+	color: #FF6633;  text-decoration:none
+	}
+a:visited {
+	color:#FF6633; text-decoration:none
+	}
+a:hover   {
+	color:#FF6633;  text-decoration:underline
+	}
+a:active  {
+	color:#FF6633; text-decoration:underline
+	}
+
+
+.portfolio a:link {
+	color: #FF6633; text-decoration:none
+	}
+.portfolio a:visited {
+	color:#FF6633; text-decoration:none
+	}
+.portfolio a:hover   {
+	color:#FF6633; text-decoration:underline
+	}
+.portfolio a:active  {
+	color:#FF6633; text-decoration:underline
+	}
+
+
+div.special {
+text-align:center;
+} 
+
+a {
+	font-family:TW Cen MT;
+    line-height:30px;
+    background-color: 0;
+	font-size:24px;
+    text-align: center;
+	
+}
+
+h1 {
+    color: black;
+    text-align: center;
+	font-family:Tw Cen MT;
+	font-size:75px;
+    padding:8px;
+}
+
+p {
+    font-family: "Tw Cen MT";
+    font-size: 20px;
+}
+
+table {
+	background-color: pink;
+	width:100%
+}
+
+th, td {
+    padding: 100px;
+	
+}
+
+iframe {
+	width: 400px;
+	}
+	
+iframe .img{
+	width: 800px;
+	}
+
+subscribe-form{
+	float: center;
+	color: pink;
+}
+
+
+#middle
+{position:fixed;
+top:100px;
+left: 450px;}
+
+ 
+#left
+{float:left;
+width:160px;
+font-size:24px;
+padding:0px 0px 0px 0px;
+-webkit-transition: opacity 0.7s linear;
+-webkit-transition: all 0.7s ease-in-out;
+-moz-transition: all 0.7s ease-in-out;
+-o-transition: all 0.7s ease-in-out;}
+
+#lef
+{float:left;
+width:160px;
+font-size:24px;
+padding:0px 0px 0px 0px;
+-webkit-transition: opacity 0.7s linear;
+-webkit-transition: all 0.7s ease-in-out;
+-moz-transition: all 0.7s ease-in-out;
+-o-transition: all 0.7s ease-in-out;}
+
+#right
+{overflow:hidden;
+width:120px;
+padding:0px 0px 0px 0px;
+}
+
+
+#about
+{float:left;
+color:0;
+text-align:justify;
+font-size:9px;
+width:0px;
+height:0px;
+opacity:0;
+-webkit-transition: opacity 0.7s linear;
+-webkit-transition: all 0.7s ease-in-out;
+-moz-transition: all 0.7s ease-in-out;
+-o-transition: all 0.7s ease-in-out;}
+
+#abou
+{float:left;
+color:0;
+text-align:justify;
+font-size:9px;
+width:0px;
+height:0px;
+opacity:0;
+-webkit-transition: opacity 0.7s linear;
+-webkit-transition: all 0.7s ease-in-out;
+-moz-transition: all 0.7s ease-in-out;
+-o-transition: all 0.7s ease-in-out;}
+
+#picture
+{width:885px;/*no*/
+-webkit-transition: opacity 0.7s linear;-webkit-transition: all 0.7s ease-in-out;-moz-transition: all 0.7s ease-in-out;-o-transition: all 0.7s ease-in-out;}
+ 
+#picture:hover
+{width:860px;}/*no*/
+ 
+#picture:hover #about
+{width:400px; /*has to be this*/
+padding:20px 10px 10px 10px;
+opacity:1;}
+
+#picture:hover #abou
+{width:400px; /*has to be this*/
+padding:20px 10px 20px 10px;
+opacity:1;}
+
+#picture:hover #left
+{margin-left:-5px;}
+
+#picture:hover #lef
+{margin-left:-200px;}
+
+#picture:hover #right
+{margin-right:195px;}
+
+#menu
+{overflow:hidden;}
+ 
+ 
+#nav
+{position:fixed;
+top: -121px;
+left:15px;}
+
+div.img {
+    border: 1px solid #ccc;
+}
+
+div.img:hover {
+    border: 1px solid #777;
+}
+
+div.img img {
+    width: 100%;
+    height: auto;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px){
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .responsive {
+        width: 100%;
+    }
+}
+
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+div{
+  text-align:center;
+  width:100%;
+}
+
+div.respon{
+  text-align:center;
+  width:100%;
+}
